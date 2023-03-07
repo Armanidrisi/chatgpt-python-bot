@@ -5,9 +5,9 @@ import openai
 
 
 #Bot Api Token
-API_TOKEN = 'your token'
+API_TOKEN = '6119640400:AAE5P8B94c0hoR3kXflmSkWhhSE3rt3OTWc'
 #Openai Api Key
-openai.api_key="your key"
+openai.api_key="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"
 
 
 bot = telebot.TeleBot(API_TOKEN)
@@ -40,13 +40,15 @@ Use /ask  To Ask Questions\
 
 #Handle The '/ask'
 @bot.message_handler(commands=['ask'])
-def send_answer(message):
-	question=message.text[len("/ask"):]
-	if len(question)==0:
-		bot.send_message(message.chat.id,"Send Like This /ask Your Question") 
-	else:
-		bot.send_message(message.chat.id,get_response(question))
+def first_process(message):
+	bot.send_message(message.chat.id,"Send Me your Question")
+	bot.register_next_step_handler(message,second_process)
+def again_send(message):
+  bot.register_next_step_handler(message,second_process)
+def second_process(message):
+  bot.send_message(message.chat.id,get_response(message.text))
+  again_send(message)
 
-
-#run the Bot
+ 
 bot.infinity_polling()
+
