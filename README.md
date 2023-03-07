@@ -16,6 +16,9 @@ Now Move To The Bot Directory
 
 ```cd chatgpt-python-bot```
 
+Install The Packages
+
+```pip install -r requirement.txt ```
 
 Now Run The Bot
 
