@@ -1,13 +1,13 @@
-#Author: Arman Idrisi
+#Author: RUDRANSH
 
 import telebot
 import openai
 
 
 #Bot Api Token
-API_TOKEN = ''
+API_TOKEN = '6140419081:AAHoDHu3DW6Bs_0ZXoTbjvvMxwG2NLPdAO8'
 #Openai Api Key
-openai.api_key=""
+openai.api_key="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"
 
 
 bot = telebot.TeleBot(API_TOKEN)
@@ -29,17 +29,17 @@ def get_response(msg):
 def send_welcome(message):
 	 # bot.send_message(message.chat.id,message.text)
 	   bot.send_message(message.chat.id, """\
-Hi there, I am A Ai ChatBot.
+Hi there, I am Ai Chat Gpt Bot.
 
 I am here to Give Answers Of Your Question.
 
-I Am Created Using Chatgpt Api ! 
+I Am Created By @Rudransh_op! 
 
-Use /ask  To Ask Questions\
+Use '?'  To Ask Questions\
 """)
 
-#Handle The '/ask'
-@bot.message_handler(commands=['ask'])
+#Handle The '?'
+@bot.message_handler(commands=['?'])
 def first_process(message):
 	bot.send_message(message.chat.id,"Send Me your Question")
 	bot.register_next_step_handler(message,second_process)
