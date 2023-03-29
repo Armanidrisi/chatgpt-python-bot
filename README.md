@@ -24,6 +24,6 @@ Now Run The Bot
 
 ```python chatgpt-python-bot.py```
 
-After Complete This Process Your Bot Will Work
+> After Complete This Process Your Bot Will Work
 
 [Subscribe Us On Youtube](https://youtube.com/@Armanidrisi1)
