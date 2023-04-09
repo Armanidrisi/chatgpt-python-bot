@@ -1,4 +1,13 @@
-# chatgpt-python-bot
+# :robot: chatgpt-python-bot
+
+[![GitHub forks](https://img.shields.io/github/forks/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/stargazers)
+[![License](https://img.shields.io/github/license/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/commits/main)
+
+
 This Is A Telegram Bot Created using OPENAI Api And Coded in Python
 
 # How To Deploy Locally ?
