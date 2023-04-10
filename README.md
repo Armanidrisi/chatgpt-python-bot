@@ -1,38 +1,37 @@
-# :robot: chatgpt-python-bot
+# 💬 ChatGPT Python Bot
 
-[![GitHub forks](https://img.shields.io/github/forks/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/network/members)
-[![GitHub stars](https://img.shields.io/github/stars/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/stargazers)
-[![License](https://img.shields.io/github/license/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/blob/main/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/graphs/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Armanidrisi/chatgpt-python-bot.svg?style=flat-square)](https://github.com/Armanidrisi/chatgpt-python-bot/commits/main)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Armanidrisi/chatgpt-python-bot/blob/main/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/Armanidrisi/chatgpt-python-bot)
+![GitHub contributors](https://img.shields.io/github/contributors/Armanidrisi/chatgpt-python-bot)
+![GitHub last commit](https://img.shields.io/github/last-commit/Armanidrisi/chatgpt-python-bot)
+![GitHub forks](https://img.shields.io/github/forks/Armanidrisi/chatgpt-python-bot)
+![GitHub issues](https://img.shields.io/github/issues-raw/Armanidrisi/chatgpt-python-bot)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Armanidrisi/chatgpt-python-bot)
+![GitHub stars](https://img.shields.io/github/stars/Armanidrisi/chatgpt-python-bot)
 
+This is a Telegram bot created using Python and OpenAI that utilizes PyTelegramBotAPI for interacting with Telegram's API. This bot is designed to use OpenAI's GPT-3.5 architecture for generating text-based responses to user queries.
 
-This Is A Telegram Bot Created using OPENAI Api And Coded in Python
+## 🚀 How to Use
 
-# How To Deploy Locally ?
-## Step 1
-Fork This Repo And Go To Your python-chatgpt-bot.py And Edit Your Bot Token And Openai Api Key
+1. Clone the repository to your local machine
+2. Install the dependencies using `pip install -r requirements.txt`
+3. Create a Telegram bot using [BotFather](https://core.telegram.org/bots#6-botfather) and get your bot token
+4. Get your OpenAI API key by following the instructions [here](https://beta.openai.com/docs/quickstart)
+5. Update the `python-chatgpt-bot.py` file with your bot token and OpenAI API key
+6. Run the bot using `python python-chatgpt-bot.py`
 
-## Step 2
-Go To Your Terminal Enter The Following Commands
+Once the bot is running, you can interact with it by messaging it on Telegram.
 
+## 🛠️ Language/Framework Used
 
-```git clone <Your Github Repo Url>```
+![Python version](https://img.shields.io/badge/python-3.9-blue)
+![PyTelegramBotAPI version](https://img.shields.io/badge/PyTelegramBotAPI-3.8.2-green)
+![OpenAI version](https://img.shields.io/badge/OpenAI-0.11.1-green)
 
-Now Move To The Bot Directory
+## 👨‍💻 Author
 
+This project was created by [Arman Idrisi](https://github.com/Armanidrisi).
 
-```cd chatgpt-python-bot```
+## 📝 License
 
-Install The Packages
-
-```pip install -r requirement.txt ```
-
-Now Run The Bot
-
-```python chatgpt-python-bot.py```
-
-> After Complete This Process Your Bot Will Work
-
-[Subscribe Us On Youtube](https://youtube.com/@Armanidrisi1)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
