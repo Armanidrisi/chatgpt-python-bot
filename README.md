@@ -28,6 +28,11 @@ Once the bot is running, you can interact with it by messaging it on Telegram.
 ![PyTelegramBotAPI version](https://img.shields.io/badge/PyTelegramBotAPI-3.8.2-green)
 ![OpenAI version](https://img.shields.io/badge/OpenAI-0.11.1-green)
 
+## 🎥 Video Tutorial 
+
+[![Watch the video](https://img.youtube.com/vi/bsBY9Ui8sKM/0.jpg)](https://youtu.be/bsBY9Ui8sKM)
+
+
 ## 👨‍💻 Author
 
 This project was created by [Arman Idrisi](https://github.com/Armanidrisi).
