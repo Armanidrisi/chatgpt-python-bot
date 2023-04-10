@@ -1,4 +1,4 @@
-# 💬 ChatGPT Python Bot
+# 💬 ChatGPT Telegram Bot in Python
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Armanidrisi/chatgpt-python-bot/blob/main/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Armanidrisi/chatgpt-python-bot)
