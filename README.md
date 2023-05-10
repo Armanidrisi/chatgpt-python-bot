@@ -9,6 +9,12 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Armanidrisi/chatgpt-python-bot)
 ![GitHub stars](https://img.shields.io/github/stars/Armanidrisi/chatgpt-python-bot)
 
+### &#8627; Stargazers
+[![Stargazers repo roster for @Armanidrisi/chatgpt-python-bot](https://reporoster.com/stars/Armanidrisi/chatgpt-python-bot)](https://github.com/Armanidrisi/chatgpt-python-bot/stargazers)
+
+### &#8627; Forkers
+[![Forkers repo roster for @Armanidrisi/chatgpt-python-bot](https://reporoster.com/forks/Armanidrisi/chatgpt-python-bot)](https://github.com/Armanidrisi/chatgpt-python-bot/network/members)
+
 This is a Telegram bot created using Python and OpenAI that utilizes PyTelegramBotAPI for interacting with Telegram's API. This bot is designed to use OpenAI's GPT-3.5 architecture for generating text-based responses to user queries.
 
 ## 🚀 How to Use
